@@ -163,7 +163,7 @@ body {
 .links {
   font-size: 20px;
   text-align: center;
-  margin: -5%;  
+  margin: -10%;  
 }
 
 .social {
@@ -178,3 +178,8 @@ body {
   border-width: 0;
 }
 
+.balance {
+  color: orange;
+  font-weight: 600;
+  font-size: 25px;
+}

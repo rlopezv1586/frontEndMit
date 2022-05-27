@@ -36,7 +36,7 @@ function Balance() {
                     <input
                         type='input'
                         value={balance}
-                        className="borderInputW"
+                        className="borderInputW balance"
                         id="amount"
                         disabled
                     />

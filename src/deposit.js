@@ -73,9 +73,9 @@ function Deposit() {
             </div>
             <h1 className='withdraw'>Deposit</h1>
             <br></br>
-            body = {show ? (
+            {show ? (
                 <>
-                    <p className='instruction'>Type the amount to deposit</p>
+                    <p className='instruction'>¿How much?</p>
                     <br></br>
                     <input
                         type='input'
@@ -87,14 +87,14 @@ function Deposit() {
                         required
 
                     />
-                    <center><Button type="submit" className="btn btn-dark" disabled={!isValid()} onClick={handleCreate}>Click me to deposit</Button></center>
+                    <center><Button type="submit" className="btn btn-dark" disabled={!isValid()} onClick={handleCreate}>Click me to proceed</Button></center>
                     <br></br>
                     <br></br>
                 </>
             ) : (
                 <>
                     <center><h5>Success!</h5></center>
-                    <button type="submit" className="btn btn-dark" onClick={clearForm}>Click me to make another deposit</button>
+                    <button type="submit" className="btn btn-dark" onClick={clearForm}>¿Another deposit?</button>
                 </>
             )}
 

@@ -62,7 +62,7 @@ function Login(){
     <>
         <div className='center'>
         <h1 className='appTitle'>Good<span className='appName'>Bank</span></h1>
-        <br></br>
+        
       <div className='auth'>
         <br/>
         <div className='icons'>
@@ -90,7 +90,7 @@ function Login(){
           <br/>
           <center><Button className ="loginbutton" type='submit'>Log in</Button></center>
         </form>
-        <br/>
+        
         <p className="alert">
           Don't have and account? 
           <Link to='/register'>Create one here</Link>

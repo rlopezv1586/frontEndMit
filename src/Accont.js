@@ -25,7 +25,7 @@ function Account() {
   return (
     <>
       <center><br/>
-        <h2>Hi!<strong>{currentUser?.email}</strong></h2>
+        <h2>Hi!<br/><strong>{currentUser?.email}</strong></h2>
         <br></br>
         <br></br>
       </center>

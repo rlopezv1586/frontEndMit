@@ -77,7 +77,7 @@ function Withdraw () {
       <br></br>
       {show ? (
           <>
-              <p className='instruction'>Type the amount to withdraw</p>
+              <p className='instruction'>¿How much?</p>
               <br></br>
               <input
                   type='input'
@@ -89,14 +89,14 @@ function Withdraw () {
                   required
 
               />
-              <center><Button type="submit" className="btn btn-dark" disabled={!isValid()} onClick={handleCreate}>Click me to withdraw</Button></center>
+              <center><Button type="submit" className="btn btn-dark" disabled={!isValid()} onClick={handleCreate}>Click me to proceed</Button></center>
               <br></br>
               <br></br>
           </>
       ) : (
           <>
               <center><h5>Success!</h5></center>
-              <button type="submit" className="btn btn-dark" onClick={clearForm}>Click me to make another withdraw</button>
+              <button type="submit" className="btn btn-dark" onClick={clearForm}>¿Another withdraw?</button>
           </>
       )}
 
