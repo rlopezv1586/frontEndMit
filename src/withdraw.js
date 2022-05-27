@@ -35,7 +35,7 @@ function Withdraw () {
       setStatus("");
       
       const balance=  currentUser.balance - Number(amount)
-      const url= `http://127.0.0.1:3000/account/deposit/${currentUser.email}/${balance}`;
+      const url= `https://backend-mit.herokuapp.com/account/deposit/${currentUser.email}/${balance}`;
 
       (async () => {
         var res   = await fetch(url);
