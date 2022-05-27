@@ -49,7 +49,7 @@ function Withdraw () {
         setCurrentUser({...currentUser, balance: balance})
         setAmount(amount);
         
-        alert("Your deposit has been made succesfully");
+        
         
 
        }   
